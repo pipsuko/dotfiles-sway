@@ -56,7 +56,7 @@ font FiraCode Nerd Font Mono Regular 12
 titlebar_border_thickness 2
 default_border pixel 2
 default_floating_border pixel 2 
-gaps inner 5
+gaps inner 10
 gaps outer 20
 ### Key bindings
 #
