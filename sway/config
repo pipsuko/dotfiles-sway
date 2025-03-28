@@ -14,7 +14,7 @@ exec /usr/libexec/polkit-gnome-authentication-agent-1
 exec_always import-gsettings
 # Display and Wallpaper    Get Outputs: swaymsg -t get_outputs
 output DP-1 {
-    background ~/pics/wallpaper/perfectblue.jpg fill
+    background ~/pics/wallpaper/lonelyocean.jpg fill
     resolution 2560x1440@165Hz
 }
 ### Variables
@@ -49,9 +49,10 @@ input type:pointer {
 
 # Decorations
 # Property              Border  BG      Text    Indic   Child-border
-client.focused          #7dcfff #1a1b26 #a9b1d6 #bb9af7 #7dcfff
-client.focused_inactive #7dcfff #1a1b26 #a9b1d6 #bb9af7 #3d59a1
-client.unfocused        #3d59a1 #1a1b26 #a9b1d6 #bb9af7 #3d59a1
+client.focused          #7dcfff #1a1b26 #a9b1d6 #7aa2f7 #7dcfff
+client.focused_inactive #7dcfff #1a1b26 #a9b1d6 #3d59a1 #3d59a1
+client.unfocused        #3d59a1 #1a1b26 #a9b1d6 #3d59a1 #3d59a1
+client.urgent           #f7768e #1a1b26 #a9b1d6 #f7768e #f7768e
 font FiraCode Nerd Font Mono Regular 12
 titlebar_border_thickness 2
 default_border pixel 2
